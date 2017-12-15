@@ -7,4 +7,5 @@ to install the AIB full node and explorer instanlly
 
 
 
-#> bash <(curl -s https://raw.githubusercontent.com/iobond/aib-explorer-docker/master/install.sh)
+
+bash <(curl -s https://raw.githubusercontent.com/iobond/aib-explorer-docker/master/install.sh)
