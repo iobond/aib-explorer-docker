@@ -6,4 +6,4 @@ wget https://github.com/iobond/aib-explorer-docker/releases/download/aibd-v5.13.
 tar xf aibd.tgz -C /home/block.aib.one/.aib/
 
 #docker run -v /home/block.aib.one:/home/.aib  -v /home/.logs:/root/.logs -d -p 31415:31415  -p 33001:3001  -p 33080:80 -p 33022:22 --name block.AIB.one  canadianbitcoin/block.aib.one:v6 /root/start.sh
-docker run -v /home/block.aib.one:/home/.aib  -v /home/.logs:/root/.logs -d -p 31415:31415  -p 33001:3001  --name block.AIB.one  canadianbitcoin/block.aib.one:v6 /root/start.sh
+docker run --restart=always -v /home/block.aib.one:/home/.aib  -v /home/.logs:/root/.logs -d -p 31415:31415  -p 33001:3001  --name block.AIB.one  canadianbitcoin/block.aib.one:v6 /root/start.sh
