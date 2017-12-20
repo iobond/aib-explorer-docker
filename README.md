@@ -2,7 +2,9 @@
 One command line to install AIB Full node + explorer
 
 Dependency:
+
 sudo apt-get update
+
 sudo apt-get install -y curl docker.io
 
 
