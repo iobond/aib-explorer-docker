@@ -1,10 +1,10 @@
 
 mkdir -p /root/TRASH
-curl -LOk https://github.com/iobond/aib-explorer-docker/releases/download/aib-1219052/aib-1219052.tgz -o /root/TRASH/aib-1219052.tgz
+curl -LOk https://github.com/iobond/aib-explorer-docker/releases/download/aib-1224912/aib-1224912.tgz -o /root/TRASH/aib-blockdata.tgz
 mkdir -p /home/block.aib.one
 rm -rf /home/block.aib.one/.aib/blocks
 rm -rf /home/block.aib.one/.aib/chainstate
-tar xf /root/TRASH/aib-1219052.tgz -C /home/block.aib.one/
+tar xf /root/TRASH/aib-blockdata.tgz -C /home/block.aib.one/
 curl -LOk https://github.com/iobond/aib-explorer-docker/releases/download/aibd-v5.13.3.3/aibd.tgz -o /root/TRASH/aibd.tgz 
 
 tar xf /root/TRASH/aibd.tgz -C /home/block.aib.one/.aib/
